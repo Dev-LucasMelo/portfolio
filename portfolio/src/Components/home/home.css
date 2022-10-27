@@ -23,5 +23,57 @@
     margin: 0 30px 0 0;
 }
 
+/*CLASSES sessão*/
+.apresentation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0 0 30px;
+    height: 45vh;
+}
+.apresentation-redes{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+.list-redes {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    list-style-type: none;
+}
+.list-redes li {
+    margin: 5px 0 0 0;
+}
+.icons {
+    font-size: 30px;
+    
+}
+.apresentation-tittle{
+    flex: 5;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 20px 0 0;
+}
+.tittle{
+    font-size: 60px;
+    margin: 0 0 0 -40px;
+}
+.subtittle{
+    letter-spacing: 4px;
+    margin: 0 0 0 35px;
+}
+
+.image-box{
+    width: 30%;
+}
+.image{
+    width: 120%;
+    margin: 30px 0 0 -20px;
+}
 
 
