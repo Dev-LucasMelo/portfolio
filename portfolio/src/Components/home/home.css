@@ -1,0 +1,15 @@
+.home-component{
+    background-color: wheat;
+    width: 100%;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.redes{
+    
+}
