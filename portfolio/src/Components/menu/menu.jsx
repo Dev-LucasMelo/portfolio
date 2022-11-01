@@ -7,7 +7,6 @@ const Menu = () => {
             <h1 className='name'>Lucas Melo</h1>
             <ul className='menu-list'>
                 <a href='#about-component'><li className='link'>about</li></a>
-                <li className='link'>stacks</li>
                 <li className='link'>portfolio</li>
             </ul>
         </header>
