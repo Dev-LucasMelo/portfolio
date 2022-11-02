@@ -42,7 +42,7 @@
     animation: rotate 5s linear infinite;
 }
 
-
+/*animations*/
 @keyframes rotate {
     from {
         transform: rotate(0deg);

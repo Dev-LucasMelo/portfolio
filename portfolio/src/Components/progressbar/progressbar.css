@@ -3,7 +3,6 @@
     flex-direction: column;
     width: 130%;
 }
-
 .container{
     display: flex;
     justify-content: flex-start;
