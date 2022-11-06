@@ -2,14 +2,31 @@ import './App.css';
 import About from './about/about';
 import Home from './home/home';
 import Menu from './menu/menu';
+import Contact from './Contact-component/Contactcomp';
+import Scrolltop from './Scrolltop/scrolltop';
 
 
 function App() {
+
+  window.addEventListener("scroll", () => {
+    const buttonscroll = document.getElementById("scroll")
+    const footer = document.getElementById("text")
+    const tela = window.scrollY
+
+    if (tela > footer.getBoundingClientRect().top) {
+      buttonscroll.classList.remove("displayevent")
+    } else {
+      buttonscroll.classList.add("displayevent")
+    }
+
+  })
   return (
     <>
       <Menu />
       <Home />
       <About />
+      <Contact />
+      <Scrolltop />
     </>
   );
 }

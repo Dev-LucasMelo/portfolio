@@ -1,0 +1,15 @@
+.scroll {
+    font-size: 40px;
+    position: fixed;
+    right: 7vh;
+    bottom: 15vh;
+    color: white;
+    cursor: pointer;
+    transition: .3s all ease-in-out;
+}
+
+
+.displayevent {
+    opacity: 0;
+    transition: .2s all ease-in-out;
+}
