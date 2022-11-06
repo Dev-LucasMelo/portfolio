@@ -10,10 +10,10 @@ function App() {
 
   window.addEventListener("scroll", () => {
     const buttonscroll = document.getElementById("scroll")
-    const footer = document.getElementById("text")
+    const textfooter = document.getElementById("text")
     const tela = window.scrollY
 
-    if (tela > footer.getBoundingClientRect().top) {
+    if (tela > textfooter.getBoundingClientRect().top) {
       buttonscroll.classList.remove("displayevent")
     } else {
       buttonscroll.classList.add("displayevent")

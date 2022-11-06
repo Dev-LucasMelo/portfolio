@@ -3,12 +3,9 @@ import "./scrolltop.css"
 import {BsFillArrowUpCircleFill} from "react-icons/bs"
 
 const Scrolltop = () => {
-
-   
-
     return (
         <>  
-           <a id="scroll" className='scroll ' href="#top"><BsFillArrowUpCircleFill /></a> 
+           <a id="scroll" className='scroll displayevent' href="#top"><BsFillArrowUpCircleFill /></a> 
         </>
     );
 }
