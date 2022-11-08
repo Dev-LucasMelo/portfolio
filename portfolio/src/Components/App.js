@@ -5,7 +5,6 @@ import Menu from './menu/menu';
 import Contact from './Contact-component/Contactcomp';
 import Scrolltop from './Scrolltop/scrolltop';
 
-
 function App() {
 
   window.addEventListener("scroll", () => {
@@ -20,9 +19,31 @@ function App() {
     }
 
   })
+
+  //ARRAY OPS
+  
+  const ops = [
+
+    {
+      "id" : 1,
+      "op" : "about",
+      "href" : "#about-component"
+    },
+    {
+      "id" : 2,
+      "op" : "Contact",
+      "href" : "#contact"
+    },
+    {
+      "id" : 3,
+      "op" : "Portfolio",
+      "href" : "/projetos"
+    },
+  ]
+
   return (
     <>
-      <Menu />
+      <Menu ops={ops} />
       <Home />
       <About />
       <Contact />

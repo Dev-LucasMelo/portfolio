@@ -31,7 +31,12 @@
 }
 .icons {
     font-size: 30px;
-    
+    opacity: .7;
+    transition: .3s;
+}
+.icons:hover {
+    opacity: 1;
+    transition: .3s;
 }
 .apresentation-tittle{
     flex: 5;
