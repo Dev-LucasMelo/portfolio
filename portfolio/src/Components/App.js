@@ -19,11 +19,8 @@ function App() {
     }
 
   })
-
   //ARRAY OPS
-  
   const ops = [
-
     {
       "id" : 1,
       "op" : "about",
