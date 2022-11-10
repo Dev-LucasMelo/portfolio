@@ -15,19 +15,19 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    width: 20vh;
+    flex-wrap: wrap;
     width: 100%;
-    margin: 10vh 0 0 0;
+    margin: 0;
 }
 
 .project{
     width: 30%;
     height: 30vh;
     border: 1px solid white;
-    background-image: url("./../../images/netflix.png");
     background-size: cover ;
     background-repeat: no-repeat;
     transition: all ease-in-out .3s;
+    margin: 30px 0 0 0;
 }
 
 .project:hover {
@@ -44,7 +44,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    color: black;
+    color: white;
 }
 .tittleprojects{
     display: flex;
@@ -61,4 +61,5 @@
 }
 .some {
     display: none;
+    
 }
