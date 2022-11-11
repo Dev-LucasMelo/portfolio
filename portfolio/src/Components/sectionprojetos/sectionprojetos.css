@@ -44,7 +44,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    color: white;
+    color: #000000;
+    
 }
 .tittleprojects{
     display: flex;

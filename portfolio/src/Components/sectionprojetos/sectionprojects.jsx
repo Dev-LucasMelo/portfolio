@@ -1,20 +1,30 @@
 import React from "react";
-//import {useState} from "react"
+import {useState} from "react"
 import "./sectionprojetos.css";
 
 const Sectionprojects = (props) => {
+    const [background,Setbackground] = useState(true) 
 
-    /* 
+    
+    console.log(background)
+    
     function mousemove_event(e) {  
-        const boxdata = document.getElementById(`projectbox-data1`);
-        boxdata.classList.remove("some");
+      const boxdata = e.target
+        boxdata.children[0].style.display = ""
+        boxdata.children[1].style.display = ""  
+
+        //Setbackground(false)
     }
     
+
       function mouseleave_event(e) {
-        const boxdata = document.getElementById("projectbox-data2");
-        boxdata.classList.add("some"); 
+        const boxdata = e.target
+        boxdata.children[0].style.display = "none"
+        boxdata.children[1].style.display = "none"    
+
+       //Setbackground(true)
     }
-    */
+    
 
   return (
 
@@ -26,10 +36,13 @@ const Sectionprojects = (props) => {
             props.data.map((proj) => {
                 return (
                     <div
+                    id={proj.id}
+                    onMouseMove={mousemove_event}
+                    onMouseLeave={mouseleave_event}
                     key={proj.id}
                     className="project"
                     style={{
-                          backgroundImage: `url(${proj.background})`
+                          backgroundImage: `url(${background ? proj.background  : ""  })`
                     }}
                   >
                     <div className="projectbox-data " id={`projectbox-data`}>
