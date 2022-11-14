@@ -31,10 +31,12 @@
 }
 
 .project:hover {
+    z-index: 1;
     cursor: pointer;
     background-color: white;
     background-image: none;
     transition: all ease-in-out .3s;
+    background-image: none;
 }
 
 .projectbox-data{
@@ -62,5 +64,5 @@
 }
 .some {
     display: none;
-    
 }
+

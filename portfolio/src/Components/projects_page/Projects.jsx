@@ -17,14 +17,14 @@ const ops = [
 
 const arrayprojects = [
     {
-        "id" : 1,
+        "id" : 0,
         "background" : Netflix,
         "tittle": "Netflix Copy Front-end",
         "stacks" : "React|Axios",
         "href" : "https://dev-lucasmelo.github.io/netflix_build/"
     },
     {
-        "id" : 2,
+        "id" : 1,
         "background" : eu,
         "tittle": "teste",
         "stacks" : "React|Node",
