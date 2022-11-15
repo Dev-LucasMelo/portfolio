@@ -5,7 +5,9 @@ import Sectionprojects from '../sectionprojetos/sectionprojects';
 import "./Projects.css"
 
 import Netflix from "./../../images/netflix.png"
-import eu from "./../../images/eu.png"
+import Crud from "./../../images/crud.png"
+import Dsmovie from "./../../images/Dsmovie.png"
+import gerenciador from "./../../images/gerenciador.png"
 
 const ops = [
     {
@@ -17,17 +19,31 @@ const ops = [
 
 const arrayprojects = [
     {
-        "id" : 0,
-        "background" : Netflix,
-        "tittle": "Netflix Copy Front-end",
-        "stacks" : "React|Axios",
-        "href" : "https://dev-lucasmelo.github.io/netflix_build/"
+        "id" : 3,
+        "background" : gerenciador,
+        "tittle": "Gerenciador de Tarefas",
+        "stacks" : "React.js|NODE.JS|PostgreSQL",
+        "href" : "https://lucasmelogerenciador.netlify.app/"
+    },
+    {
+        "id" : 2,
+        "background" : Dsmovie,
+        "tittle": "DSMOVIE",
+        "stacks" : "React.js|JAVA|PostgreSQL",
+        "href" : "https://desenvolvedor-lucasmelodsmovie.netlify.app/"
     },
     {
         "id" : 1,
-        "background" : eu,
-        "tittle": "teste",
-        "stacks" : "React|Node",
+        "background" : Crud,
+        "tittle": "CRUD",
+        "stacks" : "React.js|NODE.JS|PostgreSQL",
+        "href" : "https://sistema-de-listagem.netlify.app/"
+    },
+    {
+        "id" : 0,
+        "background" : Netflix,
+        "tittle": "Netflix Copy Front-end",
+        "stacks" : "React.js",
         "href" : "https://dev-lucasmelo.github.io/netflix_build/"
     },
 ]
