@@ -1,7 +1,7 @@
 .progress-component{
     display: flex;
     flex-direction: column;
-    width: 130%;
+    width: 100%;
 }
 .container{
     display: flex;
@@ -17,7 +17,6 @@
 }
 .preenchimento{
     background-color: white;
-    
     height: 100%;
 }
 .stack{
