@@ -33,3 +33,19 @@
 .text {
     font-size: 17px;
 }
+
+@media (max-width: 385px){
+    .tittle-footer{
+        width: 50vh;
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .icons-footer {
+        font-size: 28px;
+        margin: 0 15px 0 0;
+        opacity: .6;
+    }
+    .text {
+        font-size: 15px;
+    }
+}

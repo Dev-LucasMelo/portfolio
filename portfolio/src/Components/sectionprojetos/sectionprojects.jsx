@@ -3,7 +3,7 @@ import { useState } from "react"
 import "./sectionprojetos.css";
 
 const Sectionprojects = (props) => {
-  
+
   return (
     <section className="sectionprojects_comp">
       <h1>Projetos</h1>
@@ -19,7 +19,7 @@ const Sectionprojects = (props) => {
 
             filho[0].style.display = "flex"
             filho[1].style.display = "flex"
-          
+
           }
           function Removemouseevent(a) {
             const itemalvo = a.target
@@ -32,7 +32,7 @@ const Sectionprojects = (props) => {
 
             filho[0].style.display = "none"
             filho[1].style.display = "none"
-            
+
           }
 
           return (

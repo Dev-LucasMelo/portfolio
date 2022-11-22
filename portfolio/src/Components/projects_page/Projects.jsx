@@ -16,7 +16,6 @@ const ops = [
         "href" : "/"
     }
 ]
-
 const arrayprojects = [
     {
         "id" : 3,
@@ -52,8 +51,7 @@ const Projectspage = () => {
     return (  
         <>
             <Menu ops={ops} />
-            <Sectionprojects img={Netflix} data={arrayprojects} />
-            
+            <Sectionprojects img={Netflix} data={arrayprojects} /> 
         </>
     );
 }
