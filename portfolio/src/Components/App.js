@@ -37,20 +37,7 @@ const App = () => {
       "href": "/projetos"
     }
   ]
-  /* 
-  document.body.onresize = () => {
 
-    const opsarray = document.querySelectorAll(".link")
-
-    if (document.body.clientWidth <= 700) {
-      opsarray[0].classList.add("some")
-      opsarray[1].classList.add("some")
-    } else {
-      opsarray[0].classList.remove("some")
-      opsarray[1].classList.remove("some")
-    }
-  }
-  */
   return (
     <>
       <Menu ops={ops} />
