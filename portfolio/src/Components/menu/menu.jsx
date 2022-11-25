@@ -15,7 +15,8 @@ const Menu = (props) => {
 
   if (Hamburguer % 2 === 1) {
     const itens = document.querySelectorAll(".menu-list li")
-
+    
+    
     itens.forEach((i) => {
       i.classList.add("some")
     })
@@ -24,6 +25,7 @@ const Menu = (props) => {
   } else if (Hamburguer % 2 === 0) {
     const itens = document.querySelectorAll(".menu-list li")
 
+  
     itens.forEach((i) => {
       i.classList.remove("some")
     })
@@ -35,8 +37,10 @@ const Menu = (props) => {
     <header className="menu-component">
       <h1 className="name">Lucas Melo</h1>
 
-      <ul className="menu-list">
-        <button onClick={ativa} className="menu_hamb">{Hamburguer % 2 === 0 && window.screen.width <= 700 ? <IoClose /> : <GiHamburgerMenu />} </button>
+      <ul className={`menu-list
+        ${Hamburguer % 2 == 1 ? "":"menu-list-open"}
+      `}>
+        <button onClick={ativa} className="menu_hamb">{Hamburguer % 2 === 0 ? <IoClose /> : <GiHamburgerMenu />} </button>
         {
           props.ops.map((itens) => {
             return (
@@ -48,7 +52,7 @@ const Menu = (props) => {
 
                   <li className={`link 
                   
-                  ${Hamburguer % 2 === 1 && window.screen.width <= 700 ? "some" : ""}`
+                  ${Hamburguer % 2 === 1 ? "some" : ""}`
                   
                   }>
                     {itens.op}
