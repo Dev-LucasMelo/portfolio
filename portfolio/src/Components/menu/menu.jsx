@@ -40,7 +40,7 @@ const Menu = (props) => {
       <ul className={`menu-list
         ${Hamburguer % 2 == 1 ? "":"menu-list-open"}
       `}>
-        <button onClick={ativa} className="menu_hamb">{Hamburguer % 2 === 0 ? <IoClose /> : <GiHamburgerMenu />} </button>
+        <button onClick={ativa} className="menu_hamb">{Hamburguer % 2 === 0&& window.screen.width <= 700 ? <IoClose /> : <GiHamburgerMenu />} </button>
         {
           props.ops.map((itens) => {
             return (
@@ -52,7 +52,7 @@ const Menu = (props) => {
 
                   <li className={`link 
                   
-                  ${Hamburguer % 2 === 1 ? "some" : ""}`
+                  ${Hamburguer % 2 === 1 && window.screen.width <= 700? "some" : ""}`
                   
                   }>
                     {itens.op}
