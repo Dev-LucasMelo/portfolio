@@ -2,11 +2,11 @@ import React from 'react'
 import ProgressBar from '../progressbar/progressbar';
 import './about.css'
 import {
-    DiCode,
     DiNodejsSmall,
     DiCss3,
     DiReact,
-    DiDatabase
+    DiDatabase,
+    DiLaravel
 } from "react-icons/di"
 
 
@@ -30,11 +30,12 @@ const About = () => {
                     <ProgressBar data={85} stack={"JAVASCRIPT"} />
                     <ProgressBar data={75} stack={"REACT.JS"} />
                     <ProgressBar data={70} stack={"NODE/EXPRESS.JS"} />
+                    <ProgressBar data={65} stack={"LARAVEL/PHP"} />
                     <ProgressBar data={60} stack={"SQL"} />
 
                 </div>
                 <div className='images-box'>
-                    <DiCode className='icon' />
+                    <DiLaravel className='icon' />
                     <DiCss3 className='icon' />
                     <DiReact className='icon animation'/>
                     <DiNodejsSmall className='icon'/>
