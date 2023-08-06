@@ -1,19 +1,20 @@
 .about-component{
-    height: 80vh;
+    height: max-content;
+    min-height: 80vh;
     color: white;
     background-color: #000000;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 25vh 10vh 0 10vh;
-    
 }
 .sobre{
     flex: 1;
     width: 100%;
-    text-align: start;
-    margin: 0 0 -25vh 0;
+    text-align: justify;
+    margin: 0 0 10vh 0;
     flex-wrap: wrap;
+    height: max-content;
 }
 .skills-images{
     flex: 1;
@@ -59,7 +60,6 @@
 @media (max-width: 910px) {
 
     .about-component{
-        height: 100vh;
         padding: 15vh 10vh 0 10vh;
     }
     .skills-images {
@@ -77,19 +77,12 @@
 }
 @media (max-width: 660px){
     .sobre {
-        margin: 0 0 -25vh 0;
         font-size: 14px;
     }
 }
 @media (max-width: 460px){
     .sobre {
-        margin: 0 0 -15vh 0;
         font-size: 12px;
     }
 }
 
-@media (max-width: 385px){
-    .sobre{
-        margin: 0 0 -5vh 0;
-    }
-}

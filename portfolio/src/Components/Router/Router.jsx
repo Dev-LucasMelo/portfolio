@@ -1,6 +1,5 @@
 import React from 'react';
 import App from '../App';
-import Projectspage from '../projects_page/Projects';
 
 import {
     BrowserRouter as Router,
@@ -16,7 +15,6 @@ const Rotas = () => {
             <Router>
                 <Routes>
                     <Route exact path="/" element={<App />}/>
-                    <Route exact path="/projetos" element={<Projectspage />}/>
                 </Routes>
             </Router>
         </>

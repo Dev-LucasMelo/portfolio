@@ -31,11 +31,6 @@ const App = () => {
       "op": "Contact",
       "href": "#contact"
     },
-    {
-      "id": 3,
-      "op": "Portfolio",
-      "href": "/projetos"
-    }
   ]
 
   return (

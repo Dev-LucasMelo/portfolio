@@ -1,5 +1,6 @@
 import React from 'react';
 import {useState,useEffect} from 'react';
+import "./../../Components/home/home.css";
 
 const Writeevent = (props) => {
     const[text,settext] = useState("")
@@ -11,13 +12,12 @@ const Writeevent = (props) => {
         }
     }
 
-
     useEffect(() =>{
        setTimeout(() => escrever(props.text))  
     },[])
 
     return (
-        <h2 className={props.class}> {text}</h2>
+        <h1 className="tittle"> {text}</h1>
     );
 }
 

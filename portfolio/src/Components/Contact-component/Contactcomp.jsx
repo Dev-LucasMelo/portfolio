@@ -1,6 +1,6 @@
 import React from 'react';
 import "./contact.css"
-import { MdOutlineEmail, MdLocationOn } from "react-icons/md"
+import { MdLocationOn } from "react-icons/md"
 import { BsWhatsapp } from "react-icons/bs"
 
 
@@ -13,9 +13,6 @@ const Contact = () => {
             <div>
                 <h1 className='tittle-footer' >ENTRE EM CONTATO</h1>
                 <div className='contact-box'>
-                    <div className='alinha' >
-                        <MdOutlineEmail className='icons-footer' /> <h2 className='text'>Lucasmelodev@gmail.com </h2>
-                    </div>
                     <div className='alinha'>
                         <BsWhatsapp className='icons-footer' /><h2 className='text'>87 99969-3641</h2>
                     </div>
